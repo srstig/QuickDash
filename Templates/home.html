@@ -6,7 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
-
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <style>
         h1{
             text-align: center;
@@ -24,10 +25,14 @@
 
 </head>
 <body>
+
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+
 <h1>QuickDash App</h1>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab facilis fuga fugiat id itaque iure nemo pariatur quod velit. Corporis iste, molestias nemo odit quibusdam totam. Dolor earum labore porro?</span><span>Ad aut blanditiis cum debitis est eum eveniet facilis laudantium magni, necessitatibus nobis odio perferendis quisquam ratione rem rerum vel. Deserunt eaque ipsum magni porro possimus recusandae repudiandae sequi vero!</span></p>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa delectus enim eos id maxime minus optio sapiente voluptatibus voluptatum. Atque dolore eveniet expedita minima, molestiae obcaecati quaerat quisquam sunt.</span><span>Accusantium aperiam asperiores earum, eligendi fuga molestias nam necessitatibus quis ratione rem sequi vero voluptatem voluptates. Cupiditate earum esse explicabo hic laboriosam, natus officiis optio perspiciatis sit veritatis? Nihil, quaerat.</span><span>Aperiam at, cum doloribus enim in itaque non nulla possimus quae rem rerum unde ut vero. Asperiores corporis facilis, iste nobis odio provident repellat temporibus. Debitis modi nam sint unde.</span></p>
 
-<img src="{% static 'assets/img_5.png' %}" alt="">
+
 </body>
 </html>

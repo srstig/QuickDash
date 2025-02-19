@@ -7,10 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gallery Page</title>
 
-{%load static  %}    
+{%load static  %}
+
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: #ba2121;
+            line-height: 80px;
+        }
+
+        img{
+            width: 280px;
+            height: 250px;
+        }
+    </style>
+
+ <link rel="icon" href="{% static 'assets/img_7.png' %}">
+
     
 </head>
 <body>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'home' %}">Home</a>
+
 <h1>My Gallery</h1>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci amet asperiores cum deleniti dolorem doloremque hic illum nobis odio, optio quis recusandae! Corporis dignissimos laboriosam, rerum saepe sit tenetur!</span><span>Accusamus adipisci alias aspernatur beatae consequuntur corporis culpa dolorem dolores dolorum est fugit incidunt labore nemo nihil nobis nulla numquam quia quidem reiciendis rem repudiandae sapiente, sit suscipit temporibus, ut!</span></p>
 <img src="{% static 'assets/img.png' %}" alt="">

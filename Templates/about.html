@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Page</title>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+
+<h1>Additional Information about QuickDash</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam at, consectetur consequuntur cumque, cupiditate debitis doloremque eaque iste labore minima modi, nemo neque perferendis quis saepe tempora temporibus ut?</span><span>Blanditiis consectetur corporis debitis distinctio eos, eveniet harum illo inventore ipsa laudantium perspiciatis porro praesentium quae qui, rem repellat reprehenderit repudiandae sapiente sed sequi similique sint sunt tempore ullam vitae!</span></p>
+
+<h2>Why Choose Us?</h2>
+
+<div id="main">
+
+    <div class="mydiv">
+        <img src="{% static 'assets/img_8.png' %}" alt="" class="image">
+        <h3>Watch1</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores atque aut debitis doloribus earum est in maiores, nobis nulla numquam officiis, possimus quis, sed totam unde veritatis voluptates. Nam.</span><span>Aperiam, cumque enim eos facilis fuga fugiat iure laudantium nesciunt odit, quam quo reprehenderit similique voluptatum. Animi doloribus eveniet inventore maxime repudiandae tempore veritatis. Ad deserunt laborum laudantium non provident.</span></p>
+        <button>More</button>
+    </div>
+
+    <div class="mydiv">
+         <img src="{% static 'assets/img_3.png' %}" alt="" class="image">
+        <h3>Watch2</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores atque aut debitis doloribus earum est in maiores, nobis nulla numquam officiis, possimus quis, sed totam unde veritatis voluptates. Nam.</span><span>Aperiam, cumque enim eos facilis fuga fugiat iure laudantium nesciunt odit, quam quo reprehenderit similique voluptatum. Animi doloribus eveniet inventore maxime repudiandae tempore veritatis. Ad deserunt laborum laudantium non provident.</span></p>
+        <button>More</button>
+    </div>
+
+    <div class="mydiv">
+         <img src="{% static 'assets/img_9.png' %}" alt="" class="image">
+        <h3>Watch3</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores atque aut debitis doloribus earum est in maiores, nobis nulla numquam officiis, possimus quis, sed totam unde veritatis voluptates. Nam.</span><span>Aperiam, cumque enim eos facilis fuga fugiat iure laudantium nesciunt odit, quam quo reprehenderit similique voluptatum. Animi doloribus eveniet inventore maxime repudiandae tempore veritatis. Ad deserunt laborum laudantium non provident.</span></p>
+        <button>More</button>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
