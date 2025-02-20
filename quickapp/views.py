@@ -12,3 +12,9 @@ def about(request):
 
 def form(request):
     return render(request,'form.html')
+
+def product(request):
+    return render(request,'product.html')
+
+def services(request):
+    return render(request,'services.html')
